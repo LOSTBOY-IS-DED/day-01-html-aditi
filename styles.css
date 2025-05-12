@@ -1,0 +1,39 @@
+.login{
+    background-color: #EFEEEA;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+.login-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#button-div{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: grey;
+    color: black;
+}
